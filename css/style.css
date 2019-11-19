@@ -5109,6 +5109,12 @@ button.bg-dark:focus {
 .d-block {
   display: block !important; }
 
+.discount-homepage {
+  display: block !important;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .d-table {
   display: table !important; }
 
@@ -7507,7 +7513,7 @@ h1, h2, h3, h4, h5,
   font-weight: 800;
   /* background: #fd0054; */
   /*  */
-  background: rgba(243, 243, 243, 0.777);
+  background: rgba(0, 0, 0, 0.5);
   position: relative;
   text-transform: uppercase;
   letter-spacing: 1px; }
@@ -7523,9 +7529,9 @@ h1, h2, h3, h4, h5,
     -ms-transform: translateY(100%);
     transform: translateY(100%);
     border-style: solid;
-    border-width: 30px 60px 0 60px;
+    border-width: 20px 75px 0 75px;
     /* border-color: #fd0054 transparent transparent transparent; */
-    border-color: rgba(243, 243, 243, 0.777) transparent transparent transparent;}
+    border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;}
 
 .owl-carousel {
   position: relative; }
@@ -8920,7 +8926,7 @@ textarea.form-control {
       -webkit-text-fill-color: transparent; }
   .block-7 .excerpt {
     margin-bottom: 20px;
-    color: #999999; }
+    color: #0a62d6; }
   .block-7 .label2 {
     text-transform: uppercase; }
   .block-7 .pricing-text {
