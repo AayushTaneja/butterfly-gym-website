@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Muscle - Free Bootstrap 4 Template by Colorlib</title>
+  <head>    
+	<title>Butterfly Gym & Fitness Academy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -174,53 +174,64 @@
 	  	</div>
 	  </section>
 
-	  <section class="ftco-appointment">
-			<div class="overlay"></div>
-    	<div class="container-wrap">
-    		<div class="row no-gutters d-md-flex align-items-center">
-    			<div class="col-md-6 d-flex align-self-stretch img" style="background-image: url(images/about-3.jpg);">
-    			</div>
-	    		<div class="col-md-6 appointment ftco-animate">
-	    			<h3 class="mb-3">Book a Appointment</h3>
-	    			<form action="#" class="appointment-form">
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
-		    				</div>
-		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Last Name">
-		    				</div>
-	    				</div>
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" class="form-control appointment_date" placeholder="Date">
-	            		</div>
-		    				</div>
-		    				<div class="form-group ml-md-4">
-		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-ios-clock"></span></div>
-		            		<input type="text" class="form-control appointment_time" placeholder="Time">
-	            		</div>
-		    				</div>
-		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Phone">
-		    				</div>
-	    				</div>
-	    				<div class="d-md-flex">
-	    					<div class="form-group">
-		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-		            </div>
-		            <div class="form-group ml-md-4">
-		              <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
-		            </div>
-	    				</div>
-	    			</form>
-	    		</div>    			
-    		</div>
-    	</div>
-    </section>
+  	<section class="ftco-appointment">
+  		<div class="overlay"></div>
+  		<div class="container-wrap">
+  			<div class="row no-gutters d-md-flex align-items-center">
+  				<div class="col-md-6 d-flex align-self-stretch img"
+  					style="background-image: url(images/about-3.jpg);">
+  				</div>
+  				<div class="col-md-6 appointment ftco-animate">
+  					<div id="appointmentResponse" class="alert alert-warning d-none my-1"></div>
+					<h3 class="mb-3">Book a Trial</h3>
+  					<form action="https://formsubmit.co/ajax/4947071de69c4408df11fc9b60da7f21" data-type="appointment" method="POST" class="appointment-form"
+						  id="appointmentForm">
+						<input type="hidden" name="_cc" value="sales@butterflygym.in,ifortknight@gmail.com,akshaykumar1990@hotmail.com">
+  						<div class="d-md-flex">
+  							<div class="form-group">
+  								<input required name="firstName" id="firstName" type="text" class="form-control"
+  									placeholder="First Name">
+  							</div>
+  							<div class="form-group ml-md-4">
+  								<input required name="lastName" id="lastName" type="text" class="form-control"
+  									placeholder="Last Name">
+  							</div>
+  						</div>
+  						<div class="d-md-flex">
+  							<div class="form-group">
+  								<div class="input-wrap">
+  									<div class="icon"><span class="ion-md-calendar"></span></div>
+  									<input required name="appointmentDate" id="appointmentDate" type="text"
+  										class="form-control appointment_date" placeholder="Date">
+  								</div>
+  							</div>
+  							<div class="form-group ml-md-4">
+  								<div class="input-wrap">
+  									<div class="icon"><span class="ion-ios-clock"></span></div>
+  									<input required name="appointmentTime" id="appointmentTime" type="text"
+  										class="form-control appointment_time" placeholder="Time">
+  								</div>
+  							</div>
+  							<div class="form-group ml-md-4">
+  								<input required name="phone" id="phone" type="text" class="form-control"
+  									placeholder="Phone">
+  							</div>
+  						</div>
+  						<div class="d-md-flex">
+  							<div class="form-group">
+  								<textarea required name="query" id="query" cols="30" rows="2" class="form-control"
+  									placeholder="Message"></textarea>
+  							</div>
+  							<div class="form-group ml-md-4">
+  								<input type="submit" id="bookAppointment" value="Appointment"
+  									class="btn btn-primary py-3 px-4">
+  							</div>
+  						</div>
+  					</form>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
 
 
     <footer class="ftco-footer ftco-section img">
@@ -239,31 +250,6 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
              <div class="ftco-footer-widget mb-4 ml-md-4">
@@ -326,6 +312,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+	
+  <script src="js/appointment.js"></script>
   </body>
 </html>
