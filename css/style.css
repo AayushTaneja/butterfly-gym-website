@@ -188,7 +188,7 @@ table {
 } 
 */
 
-.border-blue-top{
+/* .border-blue-top{
   border-top-style: solid;
   border-left-style:solid;
   border-right-style: solid;
@@ -202,7 +202,7 @@ table {
   border-right-style: solid;
   border-width: 2px;
   border-color: #007bff;
-}
+} */
 
 caption {
   padding-top: 0.75rem;
