@@ -183,6 +183,27 @@ svg:not(:root) {
 table {
   border-collapse: collapse; }
 
+/* .bg-light-grey{
+  background-color: #dddddd;
+} 
+*/
+
+/* .border-blue-top{
+  border-top-style: solid;
+  border-left-style:solid;
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #007bff;
+}
+
+.border-blue-bottom{
+  border-bottom-style: solid;
+  border-left-style:solid;
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: #007bff;
+} */
+
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
